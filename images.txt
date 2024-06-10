@@ -1,5 +1,5 @@
-alpine
-python:alpine3.19
-kasmweb/nginx:1.25.3
---platform=linux/amd64 redis:7.0.15-alpine3.20
---platform=linux/arm/v7 redis:7.0.15-alpine3.20
+--platform=linux/amd64,linux/arm64 wordpress:4.8-apache
+--platform=linux/amd64,linux/arm64 mysql:5.6
+--platform=linux/amd64,linux/arm64 nginx:1.21.5-alpine
+--platform=linux/amd64,linux/arm64 openjdk:8u312-jdk-slim
+--platform=linux/amd64,linux/arm64 openjdk:8u312-jdk-slim
