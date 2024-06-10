@@ -1,5 +1,4 @@
---platform=linux/amd64,linux/arm64 wordpress:4.8-apache
---platform=linux/amd64,linux/arm64 mysql:5.6
---platform=linux/amd64,linux/arm64 nginx:1.21.5-alpine
---platform=linux/amd64,linux/arm64 openjdk:8u312-jdk-slim
---platform=linux/amd64,linux/arm64 openjdk:8u312-jdk-slim
+--platform=linux/arm64 wordpress:4.8-apache
+--platform=linux/arm64 mysql:5.6
+--platform=linux/arm64 nginx:1.21.5-alpine
+--platform=linux/arm64 openjdk:8u312-jdk-slim
