@@ -1,4 +1,2 @@
---platform=linux/arm64 wordpress:4.8-apache
---platform=linux/arm64 arm64v8/mysql:8.0
---platform=linux/arm64 nginx:1.21.5-alpine
---platform=linux/arm64 openjdk:8u312-jdk-slim
+--platform=linux/arm64 arm64v8/elasticsearch:8.8.0
+--platform=linux/arm64 seataio/seata-server:1.6.1
